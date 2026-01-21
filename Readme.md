@@ -101,9 +101,10 @@ Changing the 4 user name
 )
 
 db.updateQuiz.updateOne({sku:"abc123"},{$set:{quantity:200}})
+mettre a 50 order where rating is 3.5 and quantity 10
 
 # To remove the a detail inside a document we used the $unset command 
-I works minly like the set command and is used the same way 
+I works minly like the set command and is used the same way
 So we can remove and add properties to our tables using this 2 methods
 # We can also use the $inc function which is mainly used for incrementing values inside a DB
 The Inc Also functions or follows the same functions parther as the $set and $unset command
@@ -111,5 +112,5 @@ So in the Games collection i can increment the values of our games price by 1000
 # Update can also be register with the time the are made 
 So that when checking the Database we mainly at which time any update as been madein it to ensure security models
 # Note always add your own Ids when working 
-This is to ease your personal work 
+This is to ease your personal work
 Always add the {upsert:true} in all the modification made
