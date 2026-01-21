@@ -1,0 +1,16 @@
+db.Students.insertMany[
+{
+    "id":"01",
+    "name":"Bruce",
+    "sexe":"Male",
+    "Level":"4"
+},
+{
+    "id":"02",
+    "name":"FMB237",
+    "sexe":"Male",
+    "Level":"4.5"
+}
+
+
+]
