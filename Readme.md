@@ -66,3 +66,50 @@ db.Students.insertOne({"age":"22","level":"4"}) This is mainly the second piece 
 Now we have mainly insert 2 pieces of informations in our db collections
 To show our insert data we used the command
 # db.Students.find() Where students is our collection name 
+# TP create a collection and add 5 students 
+# Student 1 will be characterist by his name,his math mark,history and science mark 
+# Student 2 name,English mark,French and Science mark.
+# Student 3 name,Science,history,french
+# Student 4 only name
+# Student 5 name,maths,english,history,sciecnce,French
+
+
+# Now let see   How to clear a collection
+
+
+# To do an update on a document we can used the filters
+A filter can be the name,id db
+
+# TP in the old collection  the was a student which only have a name  change it name to mark 
+db.Students.updateOne({"id":4},{$set:{"name":"mark"}})
+Changing the 4 user name 
+ {_id: ObjectId('6970d3c694749db80c8ce5b3')}
+
+
+ db.Students.updateOne(
+  { _id: ObjectId('6970d3c694749db80c8ce5b3') },  // Filter
+  {  // Update document
+    $set: {  // Using $set operator
+      id: "4",
+      name: "mark",db
+      English_mark: "13",
+      Science_mark: "15.5",
+      French_mark: "11"
+    }
+  },
+  { upsert: true }  // Options
+)
+
+db.updateQuiz.updateOne({sku:"abc123"},{$set:{quantity:200}})
+
+# To remove the a detail inside a document we used the $unset command 
+I works minly like the set command and is used the same way 
+So we can remove and add properties to our tables using this 2 methods
+# We can also use the $inc function which is mainly used for incrementing values inside a DB
+The Inc Also functions or follows the same functions parther as the $set and $unset command
+So in the Games collection i can increment the values of our games price by 1000
+# Update can also be register with the time the are made 
+So that when checking the Database we mainly at which time any update as been madein it to ensure security models
+# Note always add your own Ids when working 
+This is to ease your personal work 
+Always add the {upsert:true} in all the modification made
