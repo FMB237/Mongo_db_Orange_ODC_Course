@@ -1,16 +1,58 @@
-db.Students.insertMany[
+db.Students.insertMany([
 {
-    "id":"01",
-    "name":"Bruce",
-    "sexe":"Male",
-    "Level":"4"
+"id":"01",
+"name":"Bruce",
+"sexe":"Male",
+"Level":"4"
 },
 {
-    "id":"02",
-    "name":"FMB237",
-    "sexe":"Male",
-    "Level":"4.5"
+"id":"02",
+"name":"FMB237",
+"sexe":"Male",
+"Level":"4.5"
 }
+])
 
 
-]
+
+
+
+
+
+
+db.Students.insertMany([
+  {
+    id: "1",
+    name: "Donald",
+    Math_mark: 16,
+    History_mark: 12.5,
+    Science_mark: 15
+  },
+  {
+    id: "2",
+    name: "Steve",
+    English_mark: 18,
+    French_mark: 15,
+    Science_mark: 17
+  },
+  {
+    id: "3",
+    name: "Miguel",
+    Science_mark: 18,
+    History_mark: 18,
+    French_mark: 11
+  },
+  {
+    id: "4",
+    name: "Ulrich"
+  },
+  {
+    id: "5",
+    name: "Alex",
+    Math_mark: 17,
+    English_mark: 12,
+    History_mark: 18,
+    Science_mark: 17,
+    French_mark: 12.5
+  }
+])

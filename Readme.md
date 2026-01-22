@@ -114,3 +114,42 @@ So that when checking the Database we mainly at which time any update as been ma
 # Note always add your own Ids when working 
 This is to ease your personal work
 Always add the {upsert:true} in all the modification made
+
+
+# Now let learn abour Aggregation in Mongodb
+Aggrations allows us to process and transform data stages
+For this we will create a new collection into our database
+I Created a new database with name Brucedb for me peronal works
+To find an item in particular we can deside to use place it into the find command 
+
+
+# Small Work what to do ??
+Display the name of any student
+Okay We creatre the following collection 
+db.createCollection("readQuiz")
+db.readQuiz.insertMany([
+... {_id: 1,sku: "abc123",quantity: 10,metrics: {orders: 12,ratings: 4.5}},
+... {_id: 2,sku: "abc124",quantity: 9,metrics: {orders: 42,ratings: 3.5}},
+... {_id: 3,sku: "abc125",quantity: 10,metrics: {orders: 12,ratings: 3.5}},
+... {_id: 4,sku: "abc126",quantity: 15,metrics: {orders: 20,ratings: 3}},
+... {_id: 5,sku: "abc127",quantity: 1,metrics: {orders: 22,ratings: 4}},
+... {_id: 6,sku: "abc128",quantity: 10,metrics: {orders: 1,ratings: 3.5}}
+... ])
+and worked in it using the find functions to display particular items
+
+# db.readQuiz.find({quantity:10, 'metrics.ratings':3.5}) like using this command
+# Now let move to delecting so  we gonna use the remove command
+# Let move on to the used of operations in Mongodb 
+ db.inventory.find({qty:{$eq:20}})
+ db.inventory.find({tags:{$eq:"B"}})
+db.inventory.find({tags:{$eq:["A","B"]}})
+db.eqQuiz.find({qty:{$eq:15}})
+# Now let do the greater than operation  Represented by gt
+db.gtQuiz.find({'item.size':{$gt:12}})
+# 
+db.gteQuiz.find({qty:{$gte:15}})
+db.gteQuiz.find({'item.size':{$gte:12}})
+db.gteQuiz.find({'item.size':{$gte:10}})
+db.gteQuiz.find({'item.size':{$lt:15}})
+db.gteQuiz.find({'item.size':{$lt:12}})
+db.gteQuiz.find({'item.size':{$eq:2}})
