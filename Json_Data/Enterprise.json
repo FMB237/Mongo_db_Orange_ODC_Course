@@ -1,0 +1,264 @@
+[
+  {
+    "_id": 10,
+    "Nom": "FINANCES",
+    "Ville": "PARIS"
+  },
+  {
+    "_id": 20,
+    "Nom": "DSI",
+    "Ville": "NICE"
+  },
+  {
+    "_id": 30,
+    "Nom": "VENTES",
+    "Ville": "PARIS"
+  },
+  {
+    "_id": 40,
+    "Nom": "RH",
+    "Ville": "LYON"
+  },
+  {
+    "_id": 50,
+    "Nom": "MARKETING",
+    "Ville": "NICE"
+  },
+
+
+
+  {
+    "_id": 7839,
+    "Nom": "KING",
+    "Fonction": "PRESIDENT",
+    "NumChef": null,
+    "DateEntree": "2008-11-17",
+    "Salaire": 5000,
+    "Commission": null,
+    "NumDep": null
+  },
+  {
+    "_id": 7566,
+    "Nom": "MARC",
+    "Fonction": "MANAGER",
+    "NumChef": 7839,
+    "DateEntree": "2008-04-02",
+    "Salaire": 2975,
+    "Commission": null,
+    "NumDep": 20
+  },
+  {
+    "_id": 7698,
+    "Nom": "JULIE",
+    "Fonction": "MANAGER",
+    "NumChef": 7839,
+    "DateEntree": "2008-05-01",
+    "Salaire": 2850,
+    "Commission": null,
+    "NumDep": 30
+  },
+  {
+    "_id": 7782,
+    "Nom": "CLARK",
+    "Fonction": "MANAGER",
+    "NumChef": 7839,
+    "DateEntree": "2008-06-09",
+    "Salaire": 2650,
+    "Commission": null,
+    "NumDep": 10
+  },
+  {
+    "_id": 8000,
+    "Nom": "SARAH",
+    "Fonction": "MANAGER",
+    "NumChef": 7839,
+    "DateEntree": "2007-12-17",
+    "Salaire": 3000,
+    "Commission": null,
+    "NumDep": 10
+  },
+  {
+    "_id": 7499,
+    "Nom": "PIERRE",
+    "Fonction": "VENDEUR",
+    "NumChef": 7698,
+    "DateEntree": "2008-02-20",
+    "Salaire": 1900,
+    "Commission": 300,
+    "NumDep": 30
+  },
+  {
+    "_id": 7521,
+    "Nom": "MARIE",
+    "Fonction": "VENDEUR",
+    "NumChef": 7698,
+    "DateEntree": "2008-02-22",
+    "Salaire": 1950,
+    "Commission": 500,
+    "NumDep": 30
+  },
+  {
+    "_id": 7654,
+    "Nom": "MARTIN",
+    "Fonction": "VENDEUR",
+    "NumChef": 7698,
+    "DateEntree": "2008-09-28",
+    "Salaire": 1950,
+    "Commission": 1400,
+    "NumDep": 30
+  },
+  {
+    "_id": 7844,
+    "Nom": "TURNER",
+    "Fonction": "VENDEUR",
+    "NumChef": 7698,
+    "DateEntree": "2008-09-08",
+    "Salaire": 1500,
+    "Commission": 0,
+    "NumDep": 30
+  },
+  {
+    "_id": 7788,
+    "Nom": "SCOTT",
+    "Fonction": "ANALYSTE",
+    "NumChef": 7566,
+    "DateEntree": "2010-12-09",
+    "Salaire": 2000,
+    "Commission": 200,
+    "NumDep": 20
+  },
+  {
+    "_id": 7902,
+    "Nom": "FORD",
+    "Fonction": "ANALYSTE",
+    "NumChef": 7566,
+    "DateEntree": "2011-12-03",
+    "Salaire": 2200,
+    "Commission": null,
+    "NumDep": 20
+  },
+  {
+    "_id": 7369,
+    "Nom": "SARAH",
+    "Fonction": "SECRETAIRE",
+    "NumChef": 7902,
+    "DateEntree": "2007-12-17",
+    "Salaire": 1800,
+    "Commission": null,
+    "NumDep": 20
+  },
+  {
+    "_id": 7370,
+    "Nom": "SARAH",
+    "Fonction": "SECRETAIRE",
+    "NumChef": 7839,
+    "DateEntree": "2007-12-17",
+    "Salaire": 2200,
+    "Commission": 200,
+    "NumDep": 20
+  },
+  {
+    "_id": 7876,
+    "Nom": "SAM",
+    "Fonction": "SECRETAIRE",
+    "NumChef": 7788,
+    "DateEntree": "2011-12-01",
+    "Salaire": 1400,
+    "Commission": null,
+    "NumDep": 20
+  },
+  {
+    "_id": 7900,
+    "Nom": "JAMES",
+    "Fonction": "SECRETAIRE",
+    "NumChef": 7698,
+    "DateEntree": "2008-02-03",
+    "Salaire": 1950,
+    "Commission": null,
+    "NumDep": 30
+  },
+  {
+    "_id": 7934,
+    "Nom": "HELENE",
+    "Fonction": "SECRETAIRE",
+    "NumChef": 7782,
+    "DateEntree": "2020-01-23",
+    "Salaire": 1300,
+    "Commission": 400,
+    "NumDep": 10
+  },
+
+
+  {
+    "_id": 218,
+    "NumE": 7499,
+    "CIENAME": "Decathlon",
+    "Ville": "LYON",
+    "DateDebut": "2011-12-26",
+    "DateFin": "2013-12-23"
+  },
+  {
+    "_id": 209,
+    "NumE": 7654,
+    "CIENAME": "BMW",
+    "Ville": "BERLIN",
+    "DateDebut": "2011-02-09",
+    "DateFin": "2011-02-24"
+  },
+  {
+    "_id": 212,
+    "NumE": 7698,
+    "CIENAME": "MacDo",
+    "Ville": "LYON",
+    "DateDebut": "2011-03-04",
+    "DateFin": "2012-12-24"
+  },
+  {
+    "_id": 216,
+    "NumE": 7698,
+    "CIENAME": "IBM",
+    "Ville": "PARIS",
+    "DateDebut": "2013-02-09",
+    "DateFin": "2015-12-24"
+  },
+  {
+    "_id": 219,
+    "NumE": 7782,
+    "CIENAME": "BMW",
+    "Ville": "NICE",
+    "DateDebut": "2011-08-16",
+    "DateFin": "2011-10-15"
+  },
+  {
+    "_id": 214,
+    "NumE": 7900,
+    "CIENAME": "Fidal",
+    "Ville": "PARIS",
+    "DateDebut": "2011-06-07",
+    "DateFin": "2013-12-24"
+  },
+  {
+    "_id": 213,
+    "NumE": 7902,
+    "CIENAME": "Oracle",
+    "Ville": "NICE",
+    "DateDebut": "2012-04-11",
+    "DateFin": "2014-12-24"
+  },
+  {
+    "_id": 220,
+    "NumE": 7369,
+    "CIENAME": "IBM",
+    "Ville": "LONDON",
+    "DateDebut": "2018-06-20",
+    "DateFin": "2020-12-24"
+  },
+  {
+    "_id": 300,
+    "NumE": 8000,
+    "CIENAME": "EFREI",
+    "Ville": "PARIS",
+    "DateDebut": "2020-10-16",
+    "DateFin": "2020-12-15"
+  }
+]

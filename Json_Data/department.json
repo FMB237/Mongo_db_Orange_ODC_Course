@@ -1,0 +1,27 @@
+[
+  {
+    "_id": 10,
+    "Nom": "FINANCES",
+    "Ville": "PARIS"
+  },
+  {
+    "_id": 20,
+    "Nom": "DSI",
+    "Ville": "NICE"
+  },
+  {
+    "_id": 30,
+    "Nom": "VENTES",
+    "Ville": "PARIS"
+  },
+  {
+    "_id": 40,
+    "Nom": "RH",
+    "Ville": "LYON"
+  },
+  {
+    "_id": 50,
+    "Nom": "MARKETING",
+    "Ville": "NICE"
+  }
+]

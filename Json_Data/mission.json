@@ -1,0 +1,74 @@
+[
+  {
+    "_id": 218,
+    "NumE": 7499,
+    "CIENAME": "Decathlon",
+    "Ville": "LYON",
+    "DateDebut": "2011-12-26",
+    "DateFin": "2013-12-23"
+  },
+  {
+    "_id": 209,
+    "NumE": 7654,
+    "CIENAME": "BMW",
+    "Ville": "BERLIN",
+    "DateDebut": "2011-02-09",
+    "DateFin": "2011-02-24"
+  },
+  {
+    "_id": 212,
+    "NumE": 7698,
+    "CIENAME": "MacDo",
+    "Ville": "LYON",
+    "DateDebut": "2011-03-04",
+    "DateFin": "2012-12-24"
+  },
+  {
+    "_id": 216,
+    "NumE": 7698,
+    "CIENAME": "IBM",
+    "Ville": "PARIS",
+    "DateDebut": "2013-02-09",
+    "DateFin": "2015-12-24"
+  },
+  {
+    "_id": 219,
+    "NumE": 7782,
+    "CIENAME": "BMW",
+    "Ville": "NICE",
+    "DateDebut": "2011-08-16",
+    "DateFin": "2011-10-15"
+  },
+  {
+    "_id": 214,
+    "NumE": 7900,
+    "CIENAME": "Fidal",
+    "Ville": "PARIS",
+    "DateDebut": "2011-06-07",
+    "DateFin": "2013-12-24"
+  },
+  {
+    "_id": 213,
+    "NumE": 7902,
+    "CIENAME": "Oracle",
+    "Ville": "NICE",
+    "DateDebut": "2012-04-11",
+    "DateFin": "2014-12-24"
+  },
+  {
+    "_id": 220,
+    "NumE": 7369,
+    "CIENAME": "IBM",
+    "Ville": "LONDON",
+    "DateDebut": "2018-06-20",
+    "DateFin": "2020-12-24"
+  },
+  {
+    "_id": 300,
+    "NumE": 8000,
+    "CIENAME": "EFREI",
+    "Ville": "PARIS",
+    "DateDebut": "2020-10-16",
+    "DateFin": "2020-12-15"
+  }
+]
